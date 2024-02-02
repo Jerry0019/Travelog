@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+    min-width: 960px;
+}
+
+
+ul {
+    background-color: blanchedalmond;
+}
+.container { 
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+header {
+    text-align: center;
+    width: 100%;
+}
+nav {
+    font-weight: bold;
+}
+
+nav ul, footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+nav li, footer li{
+    display: inline;
+    margin: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    border-bottom: 5px solid lightblue;
+
+}
+main h1
+{
+    text-align: center;
+    color: rgb(100, 88, 88);
+    margin-bottom: 40px;
+
+}
+
+main h1 {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+    border-bottom: 1px dashed lightblue;
+    margin-top: 50px;
+}
+main img {
+    width: 680px;
+    margin:0 auto;
+    padding: 3px;
+    border: 1px lightblue solid;
+
+}
+.customerBox {
+    border: 2px black outset;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.customerBox p {
+    padding:  10px;
+}
+
+.customerBox h2 {
+    
+    border-top: 1px dashed lightskyblue;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+
+}
+
+main table {
+    border: 1PX solid lightblue;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+main th, main td {
+
+    padding: 20px;
+    border: 1px solid lightblue;
+}
+main th {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+main tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+footer {
+     text-align: center;
+     width: 100%;
+     background-color: aliceblue
+     color rgb(0, 0, 0);
+}
+footer a {
+    color: rgb(0, 0, 0);
+}
+
+#contactUs{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+#contactUs a {
+    text-decoration: none;
+    color: white;
+}
